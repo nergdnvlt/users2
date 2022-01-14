@@ -10,6 +10,7 @@ const users = require("./data/users.js");
 // Variable Definitions
 const port = process.env.PORT || 4003
 
+const user = "";
 const resolvers = {
     User: {
         __resolveReference(object) {
